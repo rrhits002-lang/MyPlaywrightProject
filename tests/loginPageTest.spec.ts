@@ -27,7 +27,9 @@ await expect(lp.errorMessage).toBeVisible()
 
 })
 
-
+/*
+Added the comment back
+*/
 test('forgotPassword', async({page})=>{
 
 const lp = new LoginPage(page)
