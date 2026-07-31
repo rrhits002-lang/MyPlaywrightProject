@@ -1,0 +1,7 @@
+{ 
+ "url" : "https://rahulshettyacademy.com/client/#/auth/login",
+"email" : "rrhits002@gmail.com",
+"password":"Rohit@2026",
+"errorMessage" :"Incorrect email or Password",
+ "inValidPassword" : "testing"
+}
