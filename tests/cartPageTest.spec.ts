@@ -27,7 +27,7 @@ test.beforeEach(async ({ page }) => {
 
     
 });
-
+//I made changes in cart page again need to check and verify
 test("Verify product in cart and proceed to checkout", async () => {
 
     await cp.verifyProductDisplayed(productName);
