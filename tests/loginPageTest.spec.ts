@@ -26,9 +26,7 @@ await lp.loginApplication(testData.email,testData.inValidPassword)
 await expect(lp.errorMessage).toBeVisible()
 
 })
-/*
-This seems to be a change
-*/
+
 
 test('forgotPassword', async({page})=>{
 
