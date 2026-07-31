@@ -17,3 +17,5 @@ this.view= this.page.getByText('View')
 }
 
 }
+
+//To store locator and methods in HOmepage class
