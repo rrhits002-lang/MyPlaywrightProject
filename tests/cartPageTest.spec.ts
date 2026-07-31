@@ -10,7 +10,8 @@ let cp: CartPage;
 const email = "rrhits002@gmail.com";
 const password = "Rohit@2026";
 const productName = "ZARA COAT 3";
-
+/*Adding pages to cart this is my new commit
+*/
 test.beforeEach(async ({ page }) => {
 
     lp = new LoginPage(page);
