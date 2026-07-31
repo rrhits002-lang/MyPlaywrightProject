@@ -10,7 +10,9 @@ let productName = 'ADIDAS ORIGINAL'
 
 let lp:LoginPage
 let dp:DashboardPage
-
+/*
+This seems to be second change in dashboard page
+*/
 test.beforeEach(async ({page})=>{
 
 const lp = new LoginPage(page)
