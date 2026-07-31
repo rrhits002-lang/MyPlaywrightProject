@@ -17,7 +17,7 @@ await lp.launchUrl(testData.url)
 await lp.loginApplication(testData.email,testData.password)
 await expect(lp.homePageIdenifier).toBeVisible()
 })
-
+//check Invalid login code is written right
 test('Invalid login', async ({page})=>{
 
 const lp = new LoginPage(page)
